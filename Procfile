@@ -1,1 +1,1 @@
-web: cd backend && gunicorn func:app
+web: gunicorn --chdir backend func:app
